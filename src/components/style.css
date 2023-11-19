@@ -1,0 +1,78 @@
+.movieCard {
+    display: block;
+    height: 400px;
+    width: 250px;
+    border: solid black;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+.movieCard:hover{
+cursor: pointer;
+}
+.remove:hover{
+    cursor: pointer;
+}
+.remove {
+    border-radius: 5px;
+    background-color: rgb(98, 100, 228);
+    width: 200px;
+}
+.title{
+    color: red;
+    font-weight: 700px;
+}
+.movieCard .imgs{
+width: 250px;
+height: 200px;
+border-top-right-radius: 20px;
+border-top-left-radius:20px ;
+object-fit: fill;}
+.movieList{
+    display: grid;
+  gap: 50px;
+    grid-template-columns: auto auto auto;
+align-content: center;
+justify-content: center;
+
+
+}
+.App{
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+body{
+    background-color: rgb(35, 191, 196);
+}   
+.addmovie{
+    justify-content: center ;
+    align-items: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.filter{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    padding: 0px;
+    margin:0px;
+    background-color: rgb(224, 177, 177);
+}
+.navbar ul{
+    margin: 0;
+    padding-bottom: 2%;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+justify-content: space-around;
+}
+.navbar ul li {
+    text-decoration: none;
+}
+.details{ 
+    text-align: center;
+align-items: center;
+justify-content: center;}
